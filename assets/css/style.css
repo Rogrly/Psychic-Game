@@ -1,0 +1,61 @@
+html {
+
+    background: url(../images/psybg.png);
+    background-color: black;
+    font-weight: bolder;
+    
+}
+
+body {
+
+    text-align: center;
+    background: url(../images/psybg.png);
+    color: white;
+
+}
+
+.image {
+
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -150px;
+ 
+}
+
+.header {
+
+    font-family: 'Monoton', cursive;
+    font-weight: bolder;
+    font-size: 80px;
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+
+}
+
+div  {
+
+    color: white;
+    font-style: bolder;
+    font-size: 40px;
+
+}
+
+
+p    {
+
+    font-family: 'Monoton', cursive;
+    color: whitesmoke;
+    font-style: bolder;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-top: 500px;
+    margin-left: -1000px;
+
+}
