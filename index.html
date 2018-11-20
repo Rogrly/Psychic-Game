@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Links to the HTML-->
+        <!-- Reset CSS Local Link For Browser Accessibilities -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <!-- CSS Local Reference Link (style.css) -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <!-- Bootstrap Reference Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+        <!-- Google Font Style -->
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<meta charset="utf-8">
+        <!-- Title For Browser Page -->
+    <title>The Psychic</title>
+    <!-- Header Content Ends -->
+</head>
+<!-- Visual Content - Body Starts -->
+<body>    
+    <!-- Title/Header -->
+    <h1 class="header">{ The Psychic Game; }</h1>
+        <!-- Psychic Image -->
+        <img class="image" src="assets/images/psych.gif" alt="Trippy Chick">
+             <!-- Page Break - Image From Score Variables -->
+            <br><br><br><br>
+        <p>Guess A Letter = { A-Z; }</p>
+            <p>Hint = { Console; } </p>
+                <!-- Wrap <div> container around each <p> element & <span> element id within to implement in javascript-->
+                <div><p>#WINNING: </p>
+                    <span id="winning">
+                    </span>
+                 </div>
+                    <div><p>#EPIC_FAIL: </p>
+                        <span id="fail">
+                        </span>
+                    </div>
+                        <div> <p>.GUESSES: </p>
+                            <span id="countdown">
+                            </span>
+                        </div>
+                             <div><p>.CHOICES: </p>
+                                <span id="keypress">
+                                </span>
+                             </div>
+                    </div>
+                 </div>
+        <!-- Javascript Reference (Must be placed at bottom of HTML) -->
+        <script src="assets/javascript/game.js"></script>
+  </body>
+  </html>
