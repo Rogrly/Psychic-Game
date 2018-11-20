@@ -21,7 +21,7 @@ var keyGuess = []; //letters player key presses
 
 //Variable function for computer (psychic)
 var psychic = letters[Math.floor(Math.random() * letters.length)]; //computer picks a randomized value from array list (letters)
-console.log(psychic); //log computer letter choice into console (show answer in console)
+console.log("Answer", psychic); //log computer letter choice into console (show answer in console)
 
 //Player function events
 document.onkeypress = function(event) { //when player press a key execute function
@@ -59,7 +59,7 @@ function reset() {
 	psychic = letters[Math.floor(Math.random() * letters.length)]; //computer picks randomized letter from array (letters)
 	guessCount = 10; //reset guessesleft counter back to 10
     keyGuess =[]; //reset all player key pressed
-    console.log(psychic); //log computer letter in console
+    console.log("Answer", psychic); //log computer letter in console
 }
 
 //Referencing each <span> element ID within HTML with variables 
